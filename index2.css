@@ -155,8 +155,10 @@ p {
   position: sticky;
   top: 0;
   z-index: 30;
+  background: rgba(10, 17, 33, 0.38);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   transition: background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-  border-bottom: 1px solid transparent;
 }
 
 .site-header.nav-scrolled {
@@ -273,7 +275,7 @@ p {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1800&q=80');
+  background-image: url('https://images.unsplash.com/photo-1562771382-9e4c8f0d5b3a?auto=format&fit=crop&w=1800&q=80');
   background-size: cover;
   background-position: center;
   overflow: hidden;
